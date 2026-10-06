@@ -1,0 +1,10 @@
+[package]
+name = "ultron-recipes"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ultron-core = { path = "../ultron-core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+toml = { workspace = true }

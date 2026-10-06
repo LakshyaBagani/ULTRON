@@ -1,0 +1,12 @@
+[package]
+name = "ultron-scheduler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ultron-core = { path = "../ultron-core" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+rusqlite = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }

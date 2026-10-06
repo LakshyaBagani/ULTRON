@@ -1,0 +1,32 @@
+[package]
+name = "ultron-python"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ultron_rust"
+crate-type = ["cdylib"]
+
+[dependencies]
+ultron-core = { path = "../ultron-core" }
+ultron-engine = { path = "../ultron-engine" }
+ultron-security = { path = "../ultron-security" }
+ultron-tools = { path = "../ultron-tools" }
+ultron-agents = { path = "../ultron-agents" }
+ultron-traces = { path = "../ultron-traces" }
+ultron-telemetry = { path = "../ultron-telemetry" }
+ultron-learning = { path = "../ultron-learning" }
+ultron-mcp = { path = "../ultron-mcp" }
+ultron-sessions = { path = "../ultron-sessions" }
+ultron-workflow = { path = "../ultron-workflow" }
+ultron-skills = { path = "../ultron-skills" }
+ultron-recipes = { path = "../ultron-recipes" }
+ultron-templates = { path = "../ultron-templates" }
+ultron-a2a = { path = "../ultron-a2a" }
+ultron-scheduler = { path = "../ultron-scheduler" }
+pyo3 = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+once_cell = { workspace = true }
+parking_lot = { workspace = true }
